@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import Alerts from "./components/Alerts";
-import About from "./About";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import About from "./About";
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
 
 
@@ -36,20 +36,20 @@ function App() {
   }
   return (
    <>
-   <Router>
+   {/* <Router> */}
     <Navbar title="TextConverter"  mode={mode} toggleMode={toggleMode} />
     <Alerts alert={alert}/>
     <div className="container my-3">
-    <Routes>
-      <Route exact path="/about" element={ <About/>}>
-    
-      </Route>
-      <Route exact path="/" element={  <TextForm alert={showAlert} color={color}/>}>
-      </Route>
-    </Routes>
-    
+    {/* <Routes> */}
+      {/* <Route exact path="/about" element={ }> */}
+      {/* <About/> */}
+      {/* </Route> */}
+      {/* <Route exact path="/" element={  }> */}
+      {/* </Route> */}
+    {/* </Routes> */}
+    <TextForm alert={showAlert} color={color}/>
     </div>
-</Router>
+   {/* </Router> */}
    </>
   );
 }
