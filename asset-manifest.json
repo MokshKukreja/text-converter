@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/text-converter/static/js/main.069d34f1.js",
+    "index.html": "/text-converter/index.html",
+    "main.069d34f1.js.map": "/text-converter/static/js/main.069d34f1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.069d34f1.js"
+  ]
+}
