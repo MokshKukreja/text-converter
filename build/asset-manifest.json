@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/text-converter/static/js/main.f525a7c9.js",
+    "main.js": "/text-converter/static/js/main.d26bc9c3.js",
     "index.html": "/text-converter/index.html",
-    "main.f525a7c9.js.map": "/text-converter/static/js/main.f525a7c9.js.map"
+    "main.d26bc9c3.js.map": "/text-converter/static/js/main.d26bc9c3.js.map"
   },
   "entrypoints": [
-    "static/js/main.f525a7c9.js"
+    "static/js/main.d26bc9c3.js"
   ]
 }
