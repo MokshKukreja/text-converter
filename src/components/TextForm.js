@@ -34,9 +34,9 @@ function TextForm(props) {
             <div className="mt-5">
                 <textarea className="form-control" onChange={handleChange} value={text} placeholder="Enter Text here" rows="10" ></textarea>
             </div>
-            <button type="button" onClick={Uppercase} className={`btn m-2`} style={{backgroundColor:props.color,color:props.color==="#303030"?"white":"#303030"}}>Convert to Uppercase</button>
+            <button type="button" onClick={Uppercase} className={`btn  ml-0`} style={{backgroundColor:props.color,color:props.color==="#303030"?"white":"#303030"}}>Convert to Uppercase</button>
             <button type="button" onClick={LowerCase} className="btn m-2 " style={{backgroundColor:props.color,color:props.color==="#303030"?"white":"#303030"}}>Convert to LowerCase</button>
-            <button type="button" onClick={ClearText} className="btn m-2 " style={{backgroundColor:props.color,color:props.color==="#303030"?"white":"#303030"}}>Clear Text</button>
+            <button type="button" onClick={ClearText} className="btn m-0.75 " style={{backgroundColor:props.color,color:props.color==="#303030"?"white":"#303030"}}>Clear Text</button>
         </div>
         <div className='container my-3'>
             <p style={{color:props.color}}>{wordCount} words and {text.length} characters</p>

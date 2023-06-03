@@ -15,13 +15,7 @@ function Navbar(props) {
         <li className="nav-item">
           <a className={`navbar-brand  text-${props.mode === `light` ? `dark` : `light`}`} href="/#">Home</a>
         </li>
-        {/* <li className="nav-item">
-          <a className={`navbar-brand  text-${props.mode === `light` ? `dark` : `light`}`} href="/about">About</a>
-        </li> */}
       </ul>
-      {/* <div className='d-flex'>
-        <div className='bg-primary rounded mx-2' style={{height:"30px",width:"30px"}}></div>
-      </div> */}
       <div className={`form-check form-switch text-${props.mode === `light` ? `dark` : `light`}`}>
   <input className="form-check-input" onClick={props.toggleMode} type="checkbox"  role="switch" id="flexSwitchCheckDefault"/>
   <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
